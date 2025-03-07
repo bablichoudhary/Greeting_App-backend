@@ -46,20 +46,24 @@ fullstack-greeting-app/
 ### 🖥️ 1. Clone the Repository
 
 ```bash
-git clone https://github.com/bablichoudhary/Greeting_App.git
-cd Greeting_App
 
-Backend Setup (Node.js + Express)
 
-cd backend
+git Clone
+ https://github.com/bablichoudhary/Greeting_App-backend.git
+cd Greeting_App-backend
+
 npm install
 node server.js
 
 Server will run on http://localhost:8000
 
-Frontend Setup (React + Vite + Tailwind)
+Live API Url
+https://greeting-app-backend-1.onrender.com
 
-cd frontend
+Frontend Setup (React + Vite + Tailwind)
+git Clone
+  https://github.com/bablichoudhary/Greeting_App_frontend.git
+cd Greeting_App_frontend
 npm install
 npm run dev
 
@@ -69,3 +73,6 @@ npm run dev
 Method GET  
 Endpoint /api/greet?name=Babli
 Description Returns greeting for John
+
+**Project Live**
+https://greeting-app-frontend.vercel.app/
